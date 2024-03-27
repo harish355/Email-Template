@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Confirmation</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .trade-details {
+            margin-bottom: 20px;
+        }
+        .trade-details h2 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        .trade-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .trade-table th, .trade-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .trade-table th {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+        }
+        .total {
+            background-color: #f2f2f2;
+            padding: 8px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Trade Confirmation</h1>
+        <div class="trade-details">
+            <h2>Trade #12345</h2>
+            <p><strong>Trade Date:</strong> March 27, 2024</p>
+            <p><strong>Trade Type:</strong> <span style="color: green;">Buy</span></p>
+            <p><strong>Asset:</strong> <span style="color: blue;">XYZ Stock</span></p>
+            <p><strong>Quantity:</strong> 100</p>
+            <p><strong>Price:</strong> $50.00 per share</p>
+            <p class="total">Total: $5000.00</p>
+        </div>
+        
+        <table class="trade-table">
+            <thead>
+                <tr>
+                    <th>Asset</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>XYZ Stock</td>
+                    <td>100</td>
+                    <td>$50.00</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="footer">
+            <p>Thank you for your trade!</p>
+        </div>
+    </div>
+</body>
+</html>
